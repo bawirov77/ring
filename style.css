@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'raleway-500';
+    src: url(/fonts/Raleway-Medium.ttf);
+}
+#header {
+background-color: #fff;
+}
+.navbar-nav {
+    margin-left: 160px;
+    gap: 40px; 
+}      
+.navbar-nav ul{
+    display: flex;
+    margin-left:13px ;
+    margin-top:40px;
+    gap: 60px;
+    list-style: none;
+}
+.navbar-nav .nav-item a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #282B22;
+    letter-spacing: 0.923px;
+    cursor: grabbing;
+    transition-duration: 4s;
+    font-family: 'raleway-500';
+}
+.navbar-nav .nav-item a :hover {
+    color: #AE7B3C;
+}
+form {
+    margin-left: 146px;
+}
+form img:nth-child(2){
+    margin-left: 5px;
+}
+form img:nth-child(3){
+    margin-left: 65px;
+}
+section {
+    width: 100%;
+    height: 687px;
+    background-image: url(/PHOTO/SECTION/-section-bgi.jpg);
+    margin-top: 80px;
+    border: 1px solid  #AE7B3C;
+}
+section h2 {
+    color: #fff;
+    margin-top: 120px;
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'raleway-500';
+}
+section p {
+    color: #fff;
+    margin-top:20px;
+    font-size:18px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-family: 'raleway-500';
+}
+
+section button   {
+    margin-top:50px;
+    padding: 22px 56px 22px 56px;
+    background-color:  #AE7B3C;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 0.4s;   
+    font-weight: 700; 
+    font-family: 'raleway-500';
+}
+section button:hover {
+    background-color: #fff;
+    color: #AE7B3C;
+    border: 3px solid #AE7B3C;
+    font-family: 'raleway-500';
+}
+article {
+    width: 100%;
+    height: 787px;
+    border: 1px solid;
+}
+article .row h2 {
+    text-align: center;
+    margin-top: 140px;
+    font-size: 42px;
+    color:#282B22;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'raleway-500';
+}
+article .row {
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+}
+.col {
+    margin-top: 80px;
+}
+aside {
+    width: 100%;
+    height: 688px;
+    border: 1px solid;
+    background-color: #3D4A39;
+}
+aside .container {
+    text-align: center;
+}
+aside .container h2 {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'raleway-500';
+}
